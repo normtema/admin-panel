@@ -13,4 +13,9 @@ class Post extends Model
     {
         return $this->belongsTo('App\Models\Category', 'cat_id');
     }
+
+    public function setTitle() {
+        $this->title = "qwe";
+    }
+
 }

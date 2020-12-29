@@ -56,7 +56,7 @@
                                     <label for="feature_image">Article photo</label>
                                     <img src="" alt="" class="img-uploaded" style="display: block; width: 300px">
                                     <input type="text" name="img" class="form-control" id="feature_image"
-                                        name="feature_image" value="" readonly>
+                                        name="feature_image" value="" >
                                     <a href="" class="popup_selector" data-inputid="feature_image">choose photo</a>
                                 </div>
                             </div>

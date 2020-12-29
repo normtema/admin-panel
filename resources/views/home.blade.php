@@ -16,8 +16,20 @@
 
                     {{ __('You are logged in!') }}
                 </div>
+
+
+            </div>
+            <div class="links">
+                <div class="links-articles">
+                    <a href="{{ route('articles')}}">go to articles</a>
+                </div>
+
+                <div class="links-categories">
+                    <a href="{{ route('articles')}}">go to categories</a>
+                </div>
             </div>
         </div>
+
     </div>
 </div>
 @endsection
